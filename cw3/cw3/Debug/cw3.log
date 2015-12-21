@@ -1,0 +1,54 @@
+﻿Build started 14/12/2015 23:30:34.
+     1>Project "C:\Users\Ross\documents\visual studio 2013\Projects\cw3\cw3\cw3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StudentMain.cpp
+         StudentMain.cpp
+     1>c:\users\ross\documents\visual studio 2013\projects\cw3\cw3\studentmain.cpp(120): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\ross\documents\visual studio 2013\projects\cw3\cw3\studentmain.cpp(138): warning C4244: 'argument' : conversion from 'const int' to 'GLfloat', possible loss of data
+     1>c:\users\ross\documents\visual studio 2013\projects\cw3\cw3\studentmain.cpp(186): warning C4244: 'argument' : conversion from 'const int' to 'GLfloat', possible loss of data
+     1>c:\users\ross\documents\visual studio 2013\projects\cw3\cw3\studentmain.cpp(197): warning C4305: 'argument' : truncation from 'int' to 'ALboolean'
+     1>c:\users\ross\documents\visual studio 2013\projects\cw3\cw3\studentmain.cpp(197): warning C4309: 'argument' : truncation of constant value
+     1>c:\users\ross\documents\visual studio 2013\projects\cw3\cw3\studentmain.cpp(201): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\ross\documents\visual studio 2013\projects\cw3\cw3\studentmain.cpp(293): warning C4305: 'argument' : truncation from 'int' to 'ALboolean'
+     1>c:\users\ross\documents\visual studio 2013\projects\cw3\cw3\studentmain.cpp(293): warning C4309: 'argument' : truncation of constant value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ross\documents\visual studio 2013\Projects\cw3\Debug\cw3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ross\documents\visual studio 2013\Projects\cw3\Debug\cw3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ross\documents\visual studio 2013\Projects\cw3\Debug\cw3.lib" /MACHINE:X86 Debug\cCamera.obj
+         Debug\cColours.obj
+         Debug\cCube.obj
+         Debug\cEnemy.obj
+         Debug\cFont.obj
+         Debug\cFontMgr.obj
+         Debug\cInputMgr.obj
+         Debug\cLaser.obj
+         Debug\cLight.obj
+         Debug\cMaterial.obj
+         Debug\cModel.obj
+         Debug\cModelLoader.obj
+         Debug\cPlayer.obj
+         Debug\cPyramid.obj
+         Debug\cShapes.obj
+         Debug\cSound.obj
+         Debug\cSoundMgr.obj
+         Debug\cSphere.obj
+         Debug\cStarfield.obj
+         Debug\cTapperGame.obj
+         Debug\cTexture.obj
+         Debug\cTriangle.obj
+         Debug\cWNDManager.obj
+         Debug\GameConstants.obj
+         Debug\StudentMain.obj
+         Debug\windowOGL.obj
+         Libraries\alut.lib
+         Libraries\DevIL.lib
+         Libraries\freeglut.lib
+         Libraries\ftgl.lib
+         "Libraries\glm-0.3.2Lib.lib"
+         Libraries\ILU.lib
+         Libraries\ILUT.lib
+         Libraries\OpenAL32.lib
+         cw3.vcxproj -> C:\Users\Ross\documents\visual studio 2013\Projects\cw3\Debug\cw3.exe
+     1>Done Building Project "C:\Users\Ross\documents\visual studio 2013\Projects\cw3\cw3\cw3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.90
